@@ -40,6 +40,26 @@
       "created": "Command: {command}, has been added.",
       "edited": "Command {command}, has been edited.",
       "deleted": "Command {command}, has been deleted"
+    },
+    "user_info":
+    {
+      "activated": "User Information has been Activated",
+      "deactivated" : "User Information has been Deactivated",
+      "plugins":
+      {
+        "points":
+        {
+          "activated": "Points Plugin has been activated",
+          "deactivated": "Points Plugins has been deactivated",
+          "message": "@{user} has {points} points."
+        },
+        "level":
+        {
+          "activated": "Level Plugin has been activated",
+          "deactivated": "Level Plugins has been deactivated",
+          "message": "@{user} is level: {level} (XP: {xp}/{goal})."
+        }
+      }
     }
   },
   "plugins": {
