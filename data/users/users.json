@@ -1,23 +1,23 @@
 {
     "krammy": {
-        "points": 1060,
-        "xp": 160,
+        "points": 1273,
+        "xp": 36,
         "last_message": "!level @krambot ",
-        "last_seen": "Tue Aug 25 2020 06:27:35 GMT+0100 (British Summer Time)",
+        "last_seen": "Tue Aug 25 2020 08:38:39 GMT+0100 (British Summer Time)",
         "level": 2
     },
     "krambot": {
-        "points": 1010,
-        "xp": 110,
+        "points": 1034,
+        "xp": 1,
         "last_message": "You have null Points. @krammy",
-        "last_seen": "Tue Aug 25 2020 06:09:47 GMT+0100 (British Summer Time)",
-        "level": 2.05
+        "last_seen": "Tue Aug 25 2020 08:29:36 GMT+0100 (British Summer Time)",
+        "level": 3
     },
     "DevBot": {
-        "points": 1055,
-        "xp": 155,
-        "last_message": "@krambot has 2.05 points.",
-        "last_seen": "Tue Aug 25 2020 06:27:36 GMT+0100 (British Summer Time)",
-        "level": 2
+        "points": 1312,
+        "xp": 35,
+        "last_message": "@krambot is level: 3 (XP: 1/150).",
+        "last_seen": "Tue Aug 25 2020 08:38:40 GMT+0100 (British Summer Time)",
+        "level": 3
     }
 }

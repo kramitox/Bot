@@ -16,7 +16,9 @@ module.exports = {
     {
         client.sendMessage(Bot.translate("processors.user_info.plugins.level.message", {
             user: data.args[0].substr(1),
-            level: userInfo[data.args[0].substr(1)].level
+            level: userInfo[data.args[0].substr(1)].level,
+            xp: userInfo[data.args[0].substr(1)].xp.toString(),
+            goal: userInfo[data.args[0].substr(1)].level * 50
           }));
     }
     else
@@ -24,8 +26,8 @@ module.exports = {
         client.sendMessage(Bot.translate("processors.user_info.plugins.level.message", {
             user: data.user,
             level: userInfo[data.user].level,
-            xp: userInfo[data.user].xp,
-            goal: userInfo[data.user].xp % 100
+            xp: userInfo[data.user].xp.toString(),
+            goal: userInfo[data.user].level * 50
           }));
     }
     

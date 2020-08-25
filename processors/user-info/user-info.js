@@ -59,12 +59,21 @@ module.exports = {
     }
     else
     {
+      var level = users[data.user].level;
+      var goal = users[data.user].level * 50;
+      var xp = users[data.user].xp + (Math.floor(Math.random() * 5) + 1)
+      if (users[data.user].xp > goal)
+      {
+        level = level+ 1;
+        xp = 0
+        client.sendMessage(`Congratulations ${data.user}, you levelled up: ${parseInt(level)}`);
+      }
       users[data.user] = {
         "points" : users[data.user].points + Math.floor(Math.random() * 10) + 15,
-        "xp" : users[data.user].xp + Math.floor(Math.random() * 10),
+        "xp" : xp,
         "last_message" : data.content,
         "last_seen" : time.toString(),
-        "level" : parseInt(users[data.user].xp / (user[data.user].level * 100) + 1)
+        "level" : level
       }
     }
     
