@@ -3,11 +3,11 @@
 ## Created by: Krammy
 
 ### What this is.
-Check when a user was last active in chat.
+Give some of your points to a user.
 
 ### Trigger.
-!seen <user>
+!give @user <points>
 
 ### Example
-!seen @user
+!give @user 1000
 

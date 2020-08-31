@@ -1,23 +1,188 @@
 {
     "krammy": {
-        "points": 1273,
-        "xp": 36,
-        "last_message": "!level @krambot ",
-        "last_seen": "Tue Aug 25 2020 08:38:39 GMT+0100 (British Summer Time)",
-        "level": 2
-    },
-    "krambot": {
-        "points": 1034,
-        "xp": 1,
-        "last_message": "You have null Points. @krammy",
-        "last_seen": "Tue Aug 25 2020 08:29:36 GMT+0100 (British Summer Time)",
-        "level": 3
+        "points": 666,
+        "xp": 93,
+        "last_message": "!blackjack 100",
+        "last_seen": "Sun Aug 30 2020 06:16:10 GMT+0100 (British Summer Time)",
+        "level": 2,
+        "vip": false,
+        "playingBlackjack": true,
+        "blackjackHand": [
+            "3",
+            "2"
+        ],
+        "blackjackDealerHand": [
+            "9",
+            "4"
+        ],
+        "blackjackBet": 100
     },
     "DevBot": {
-        "points": 1312,
-        "xp": 35,
-        "last_message": "@krambot is level: 3 (XP: 1/150).",
-        "last_seen": "Tue Aug 25 2020 08:38:40 GMT+0100 (British Summer Time)",
-        "level": 3
+        "points": 1181,
+        "xp": 52,
+        "last_message": "Unfortunately you lost.",
+        "last_seen": "Sun Aug 30 2020 06:11:35 GMT+0100 (British Summer Time)",
+        "level": 2,
+        "vip": false,
+        "playingBlackjack": false,
+        "blackjackHand": [],
+        "blackjackDealerHand": [],
+        "blackjackBet": 0
+    },
+    "krambot": {
+        "points": 1131,
+        "xp": 26,
+        "last_message": "Welcome DevBot , hope you enjoy the stream!",
+        "last_seen": "Sun Aug 30 2020 06:58:35 GMT+0100 (British Summer Time)",
+        "level": 2,
+        "vip": false,
+        "playingBlackjack": false,
+        "blackjackHand": [],
+        "blackjackDealerHand": [],
+        "blackjackBet": 0
+    },
+    "Liquified": {
+        "points": 1007,
+        "xp": 4,
+        "last_message": ":lurk :lurk :lurk :lurk ",
+        "last_seen": "Fri Aug 28 2020 05:01:50 GMT+0100 (British Summer Time)",
+        "level": 1,
+        "vip": false,
+        "playingBlackjack": false,
+        "blackjackHand": [],
+        "blackjackDealerHand": [],
+        "blackjackBet": 0
+    },
+    "Missterious": {
+        "points": 1027,
+        "xp": 9,
+        "last_message": "for whenevr you are done",
+        "last_seen": "Fri Aug 28 2020 05:01:02 GMT+0100 (British Summer Time)",
+        "level": 1,
+        "vip": false,
+        "playingBlackjack": false,
+        "blackjackHand": [],
+        "blackjackDealerHand": [],
+        "blackjackBet": 0
+    },
+    "EmpressAkara": {
+        "points": 1034,
+        "xp": 25,
+        "last_message": "nah i got off, mye eys are being weird",
+        "last_seen": "Fri Aug 28 2020 05:50:17 GMT+0100 (British Summer Time)",
+        "level": 1,
+        "vip": false,
+        "playingBlackjack": false,
+        "blackjackHand": [],
+        "blackjackDealerHand": [],
+        "blackjackBet": 0
+    },
+    "Serasly": {
+        "points": 1038,
+        "xp": 14,
+        "last_message": "is the party open?>",
+        "last_seen": "Fri Aug 28 2020 06:17:35 GMT+0100 (British Summer Time)",
+        "level": 1,
+        "vip": false,
+        "playingBlackjack": false,
+        "blackjackHand": [],
+        "blackjackDealerHand": [],
+        "blackjackBet": 0
+    },
+    "Obnoxyuck": {
+        "points": 1000,
+        "xp": 0,
+        "last_message": ":lurk :lurk :lurk :lurk :lurk ",
+        "last_seen": "Fri Aug 28 2020 06:11:58 GMT+0100 (British Summer Time)",
+        "level": 1,
+        "vip": false,
+        "playingBlackjack": false,
+        "blackjackHand": [],
+        "blackjackDealerHand": [],
+        "blackjackBet": 0
+    },
+    "INITIALIZATIONS": {
+        "points": 1000,
+        "xp": 0,
+        "last_message": "lmfao",
+        "last_seen": "Fri Aug 28 2020 06:12:33 GMT+0100 (British Summer Time)",
+        "level": 1,
+        "vip": false,
+        "playingBlackjack": false,
+        "blackjackHand": [],
+        "blackjackDealerHand": [],
+        "blackjackBet": 0
+    },
+    "Alessandro12": {
+        "points": 1061,
+        "xp": 20,
+        "last_message": ":smile ",
+        "last_seen": "Fri Aug 28 2020 08:02:36 GMT+0100 (British Summer Time)",
+        "level": 1,
+        "vip": false,
+        "playingBlackjack": false,
+        "blackjackHand": [],
+        "blackjackDealerHand": [],
+        "blackjackBet": 0
+    },
+    "BrondonloseshisAK117inBR": {
+        "points": 1000,
+        "xp": 0,
+        "last_message": "Helllllloooooo",
+        "last_seen": "Fri Aug 28 2020 08:02:36 GMT+0100 (British Summer Time)",
+        "level": 1,
+        "vip": false,
+        "playingBlackjack": false,
+        "blackjackHand": [],
+        "blackjackDealerHand": [],
+        "blackjackBet": 0
+    },
+    "Nima17": {
+        "points": 1005,
+        "xp": 4,
+        "last_message": "bro necesito aprender ingles xd",
+        "last_seen": "Fri Aug 28 2020 08:44:28 GMT+0100 (British Summer Time)",
+        "level": 1,
+        "vip": false,
+        "playingBlackjack": false,
+        "blackjackHand": [],
+        "blackjackDealerHand": [],
+        "blackjackBet": 0
+    },
+    "Miss_Mysterious": {
+        "points": 1068,
+        "xp": 30,
+        "last_message": "👀",
+        "last_seen": "Fri Aug 28 2020 10:03:55 GMT+0100 (British Summer Time)",
+        "level": 1,
+        "vip": false,
+        "playingBlackjack": false,
+        "blackjackHand": [],
+        "blackjackDealerHand": [],
+        "blackjackBet": 0
+    },
+    "Oldworlds": {
+        "points": 1002,
+        "xp": 2,
+        "last_message": "que bueno , bien igual gracias :purpleheart ",
+        "last_seen": "Fri Aug 28 2020 10:00:50 GMT+0100 (British Summer Time)",
+        "level": 1,
+        "vip": false,
+        "playingBlackjack": false,
+        "blackjackHand": [],
+        "blackjackDealerHand": [],
+        "blackjackBet": 0
+    },
+    "Keerasmatic": {
+        "points": 1000,
+        "xp": 0,
+        "last_message": "Damage :hype ",
+        "last_seen": "Sun Aug 30 2020 01:23:50 GMT+0100 (British Summer Time)",
+        "level": 1,
+        "vip": false,
+        "playingBlackjack": false,
+        "blackjackHand": [],
+        "blackjackDealerHand": [],
+        "blackjackBet": 0
     }
 }

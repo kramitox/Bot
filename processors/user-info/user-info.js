@@ -54,7 +54,12 @@ module.exports = {
         "xp" : 0,
         "last_message" : data.content,
         "last_seen" : time.toString(),
-        "level" : 1
+        "level" : 1,
+        "vip": false,
+        "playingBlackjack": false,
+        "blackjackHand": [],
+        "blackjackDealerHand": [],
+        "blackjackBet": 0,
       }
     }
     else
@@ -69,11 +74,16 @@ module.exports = {
         client.sendMessage(`Congratulations ${data.user}, you levelled up: ${parseInt(level)}`);
       }
       users[data.user] = {
-        "points" : users[data.user].points + Math.floor(Math.random() * 10) + 15,
+        "points" : users[data.user].points + Math.floor(Math.random() * 10) + 1,
         "xp" : xp,
         "last_message" : data.content,
         "last_seen" : time.toString(),
-        "level" : level
+        "level" : level,
+        "vip": users[data.user].vip,
+        "playingBlackjack": users[data.user].playingBlackjack,
+        "blackjackHand": users[data.user].blackjackHand,
+        "blackjackDealerHand": users[data.user].blackjackDealerHand,
+        "blackjackBet": users[data.user].blackjackBet,
       }
     }
     
