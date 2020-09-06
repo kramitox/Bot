@@ -83,6 +83,13 @@
           "no_args":"You didn't specify a user."
         }
       }
+    },
+    "timers":
+    {
+      "addError" : "Error: Please make sure you write !timer add <NAME> <TIME> <message>",
+      "done": "Done",
+      "activated":"Timers processor Activated",
+      "deactivated": "Timers processor Deactivate"
     }
   },
   "plugins": {
@@ -118,7 +125,7 @@
           "deactivated": "Casino - Blackjack Game Deactivated",
           "you_lost": "Unfortunately you lost.",
           "player_blackjack": "Blackjack! You have earned {playerBet} points.",
-          "player_hand": "Your hand: ${cards} (Total: ${total})",
+          "player_hand": "Your hand: {cards} (Total: {total})",
           "dealer_hand": "Dealers Hand: {dealer_hand}",
           "dealerfinishdraw" : "The dealer has finished drawing cards and his hand contains: {dealerHandString}(Total: {dealerTotalH})",
           "dealer_blackjack": "Dealer Blackjack! You lose",
@@ -153,7 +160,8 @@
           "banned": "We are sorry, you have been banned from our casino. @{user}",
           "balance": "You don't have enough points to gamble. @{user}",
           "min_bet": "Please enter a valid gamble amount. Minimum amount is 100 points. @{user}",
-          "win":"Congratulations, You won {win} points. @{user}"
+          "win":"Congratulations, You won {win} points. @{user}",
+          "lose":"Unfortunately you lost @{user}"
         },
         "slots":
         {

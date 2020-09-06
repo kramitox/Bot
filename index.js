@@ -5,6 +5,8 @@ const trovojs = require('trovo.js');
 const BottomBar = require('inquirer/lib/ui/bottom-bar');
 
 var DEV = false;
+var prevMessage = "";
+var prevEvent = "";
 
 const Bot = require(path.join(__dirname, 'modules', 'Bot.js'));
 
@@ -42,14 +44,18 @@ Bot.loadLocalizationFiles(path.resolve(__dirname, 'localization')).then(() => {
 const cooldowns = new Map();
 
 client.on('chatEvent', (type, data) => {
-   //Bot.log(util.inspect(data, false, null, true /* enable colors */))
+  if(data.id === prevEvent.id) return;
+  prevEvent = data;
+  //Bot.log(util.inspect(data, false, null, true /* enable colors */))
   if (data.user === Bot.settings.trovo.name && type === 'userJoined') return;
 
   Bot.triggerEvents(data.chatType, client, data);
 });
 
 client.on('chatMessage', (message) => {
-  //Bot.log(util.inspect(message, false, null, true /* enable colors */))
+	if (message.webmsgid === prevMessage.webmsgid) return;
+	//prevMessage = message;
+  Bot.log(util.inspect(message, false, null, true /* enable colors */))
   Bot.processProcessors(message, client).then((skip) => {
     if (skip) return;
     if (!message || message.user === undefined) return;

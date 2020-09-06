@@ -20,12 +20,12 @@ module.exports = {
         {
           user: data.user
         }));
-  
-      if (cFunctions.isNumeric(data.args[0]) === false || data.args[0] !== "all") {
+        Bot.log(data.args);
+      if ( data.args[0] !== "all" && isNaN(parseInt(data.args[0]))) {
         client.sendMessage(Bot.translate("plugins.casino.plugins.gamble.error_bet"));
         return;
       }
-      playerBet = 0;
+      var playerBet = 0;
       if (data.args[0] == "all")
       {
           playerBet = parseInt(userInfo[data.user].points, 10);
@@ -58,7 +58,7 @@ module.exports = {
       {
           client.sendMessage(Bot.translate("plugins.casino.plugins.gamble.win",
           {
-            win: (userInfo[data.user].points * 2),
+            win: (playerBet * 2),
             user: data.user
           }));
           userInfo[data.user].points += (playerBet * 2)

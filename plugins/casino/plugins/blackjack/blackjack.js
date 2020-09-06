@@ -154,13 +154,13 @@ function setup(client, data)
   const playerTotal = cFunctions.calculateHand(userInfo[data.user].blackjackHand);
   const dealerTotal = cFunctions.calculateHand(userInfo[data.user].blackjackDealerHand);
 
-  client.sendMessage(
-    (Bot.translate("plugins.casino.plugins.blackjack.player_hand"),
+  client.sendMessage(Bot.translate("plugins.casino.plugins.blackjack.player_hand",
    {
-     cards: userInfo[data.user].blackjackHand.join(","),
+     cards: (userInfo[data.user].blackjackHand.join(",")),
      total: playerTotal
    } 
   ));
+  Bot.log(userInfo[data.user].blackjackHand);
   client.sendMessage(Bot.translate("plugins.casino.plugins.blackjack.dealer_hand",
   {
     dealer_hand: userInfo[data.user].blackjackDealerHand[0]
@@ -220,7 +220,7 @@ module.exports = {
       }
       //Check points
       else if (parseInt(data.args[0], 10) > userInfo[data.user].points) {
-        client.sendMessage(Bot.translate("plugins.casino.plugins.blackjack.new_hand"));
+        client.sendMessage(Bot.translate("plugins.casino.plugins.blackjack.no_points"));
       }
       //Start Game
       else

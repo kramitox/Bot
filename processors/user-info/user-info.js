@@ -62,7 +62,7 @@ module.exports = {
         "blackjackBet": 0,
       }
     }
-    else
+    else if (data.user !== Bot.settings.trovo.name)
     {
       var level = users[data.user].level;
       var goal = users[data.user].level * 50;
